@@ -390,7 +390,11 @@ background-color: var(--accent-color);
   background-color: var(--bg-dark-cl);
 }
 .footer-container {
+  display: flex;
+  align-items: baseline;
 }
+.footer-contact {
+margin-right: 70px;}
 .footer-logo {
   display: block;
   margin-bottom: 20px;
@@ -413,6 +417,21 @@ background-color: var(--accent-color);
 
 .contact {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.social-invitation {
+  margin-bottom: 20px;
+
+
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
 }
 
 .footer-soсial-link {

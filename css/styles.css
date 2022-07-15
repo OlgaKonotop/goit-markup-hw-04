@@ -314,6 +314,9 @@ padding-bottom: 32px;} */
 }
 
 .team-item {
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-wraper {
   padding-top: 30px;
@@ -322,9 +325,7 @@ padding-bottom: 32px;} */
   padding-left: 5px;
 
   background-color: #fff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+ 
 }
 
 .team-item-title,
@@ -333,6 +334,8 @@ padding-bottom: 32px;} */
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-bottom: 16px;
 }
 
 .team-item-title {
@@ -344,6 +347,40 @@ padding-bottom: 32px;} */
   letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
 }
+
+.social {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+
+.soсial-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  /* outline: 2px solid red; */
+
+  color: #AFB1B8;
+  background-color: #fff; 
+}
+.social-icon{
+fill: currentColor;
+}
+
+.soсial-link:hover,
+.soсial-link:focus {
+color: #FFFFFF;
+background-color: var(--accent-color);
+}
+
+
+
+
 
 /* Footer Подвал */
 .footer {
@@ -377,6 +414,11 @@ padding-bottom: 32px;} */
 .contact {
   color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-soсial-link {
+background-color: rgba(255, 255, 255, 0.1);}
+.footer-social-icon {
+fill: #FFFFFF;}
 
 /* examleps Примеры работ */
 
@@ -447,3 +489,4 @@ padding-bottom: 32px;} */
   letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
 }
+
